@@ -7,6 +7,7 @@ public class Person {
     private int age;
 
     public Person() {
+        // constructor without args
     }
 
     public String getName() {
