@@ -1,4 +1,6 @@
-package com.oleg.lesson1.bean;
+package com.oleg.lesson1.service;
+
+import com.oleg.lesson1.bean.Human;
 
 public class HumanService {
     private Human human;
@@ -8,6 +10,6 @@ public class HumanService {
     }
 
     public void greet(){
-        System.out.print("Name: " +human.name + ", Age: " +human.age);
+        System.out.print("Name: " +human.getName() + ", Age: " +human.getAge());
     }
 }

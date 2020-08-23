@@ -1,7 +1,6 @@
 package com.oleg.lesson1.service;
 
 import com.oleg.lesson1.bean.Human;
-import com.oleg.lesson1.bean.HumanService;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.contrib.java.lang.system.SystemOutRule;
